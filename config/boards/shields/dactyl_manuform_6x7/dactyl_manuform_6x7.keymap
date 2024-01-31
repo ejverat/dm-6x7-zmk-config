@@ -23,7 +23,7 @@
     &kp CAPS      &kp A    &kp S     &kp D     &kp F       &kp G     &kp LBKT       &kp RBKT   &kp H       &kp J       &kp K      &kp L      &kp SEMI    &kp APOS 
     &kp LSHFT     &kp Z    &kp X     &kp C     &kp V       &kp B     &kp BSPC       &kp BSPC   &kp N       &kp M       &kp COMMA  &kp DOT    &kp SLASH   &kp RSHIFT 
     &mo FUNCTION  &kp Q    &kp LALT  &kp LCMD  &kp SPACE   &kp UP    &none          &none      &kp ENTER   &kp SPACE   &kp RCMD   &kp RALT   &kp RBKT    &kp BSLH
-    &none         &none    &none     &none     &kp LEFT    &kp DOWN  &KP RIGHT      &zoom_mute &kp SLASH   &kp RCTRL   &none      &none      &none       &none   
+    &none         &none    &none     &none     &kp LEFT    &kp DOWN  &kp RIGHT      &zoom_mute &kp SLASH   &kp RCTRL   &none      &none      &none       &none   
     >;
   };
   
