@@ -28,11 +28,11 @@
 
         functions_layer {
             bindings = <
-&none      &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &none           &none          &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_MUTE      &kp C_VOL_DN  &kp C_VOL_UP     &bt BT_CLR
-&kp GRAVE  &kp F1                &kp F2                &kp F3                             &kp F4                                  &kp F5          &kp F6         &kp F7          &kp F8            &kp F9      &kp F10         &kp F11       &kp F12          &kp PRINTSCREEN
-&none      &none                 &none                 &none                              &none                                   &none           &kp LESS_THAN  &kp GT          &none             &kp LEFT    &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none
-&none      &none                 &none                 &none                              &none                                   &none                                          &none             &none       &none           &none         &none            &none
-&none      &none                 &none                 &none                              &bt BT_NXT                              &bt BT_PRV      &none          &none           &none             &none       &none           &none         &none            &kp C_POWER
+&none      &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &none           &none          &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT      &kp C_MUTE    &kp C_VOL_DN     &kp C_VOL_UP  &bt BT_CLR
+&kp GRAVE  &kp F1                &kp F2                &kp F3                             &kp F4                                  &kp F5          &kp F6         &kp F7          &kp F8            &kp F9          &kp F10       &kp F11          &kp F12       &kp PRINTSCREEN
+&none      &none                 &none                 &none                              &none                                   &none           &kp LESS_THAN  &kp GT          &kp LEFT          &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none         &none
+&none      &none                 &none                 &none                              &none                                   &none                                          &none             &none           &none         &none            &none         &none
+&none      &none                 &none                 &none                              &bt BT_NXT                              &bt BT_PRV      &none          &none           &none             &none           &none         &none            &none         &kp C_POWER
                                                                                           &bt BT_CLR                              &bt BT_CLR_ALL  &none          &gmeet_mute     &none             &none
             >;
         };
