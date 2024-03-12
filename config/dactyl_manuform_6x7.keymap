@@ -10,9 +10,15 @@
 #define DEFAULT 0
 #define FUNCTION 1
 
-&lt { tapping-term-ms = <500>; };
+&lt {
+    tapping-term-ms = <200>;
+    quick-tap-ms = <150>;
+};
 
-&mt { tapping-term-ms = <500>; };
+&mt {
+    tapping-term-ms = <200>;
+    quick-tap-ms = <150>;
+};
 
 / {
     behaviors {
