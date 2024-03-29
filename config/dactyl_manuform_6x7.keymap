@@ -41,7 +41,7 @@
 &kp GRAVE       &kp A               &kp S                 &kp D         &mt LALT F     &kp G      &mo 3             &td_tt             &kp H           &mt LEFT_ALT J  &lt 1 K         &kp L         &kp SEMI        &kp APOS
 &sk LEFT_SHIFT  &mt LEFT_CONTROL Z  &mt LC(LEFT_SHIFT) X  &kp C         &kp V          &kp B                                           &kp N           &kp M           &kp COMMA       &kp DOT       &mt LGUI SLASH  &mo 1
 &kp Z           &sk LGUI            &kp LEFT              &kp RIGHT     &kp PAGE_UP    &kp SPACE  &kp BACKSPACE     &kp TAB            &kp ENTER       &kp ESCAPE      &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN        &kp RIGHT
-                                                                        &kp PAGE_DOWN  &kp LEFT   &kp RIGHT         &kp UP_ARROW       &kp DOWN_ARROW  &trans
+                                                                        &kp PAGE_DOWN  &kp LEFT   &kp RIGHT         &kp UP_ARROW       &kp DOWN_ARROW  &kp LS(LGUI)
             >;
         };
 
