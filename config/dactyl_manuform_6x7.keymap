@@ -48,12 +48,12 @@
 
         POG {
             bindings = <
-&trans      &kp F1            &kp F2         &kp F3                &kp F4                 &kp F5            &trans  &trans  &kp F6    &kp F7          &kp F8             &kp F9           &kp F10          &kp F11
-&trans      &kp MINUS         &kp LESS_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GREATER_THAN  &trans  &trans  &trans    &trans          &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE       &kp F12
-&trans      &kp PLUS          &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW       &kp RIGHT_ARROW  &kp PRINTSCREEN  &trans
-&trans      &trans            &kp UNDER      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans                            &trans    &trans          &trans             &trans           &trans           &trans
-&kp K_STOP  &kp K_PLAY_PAUSE  &kp K_PREV     &kp K_NEXT            &kp K_VOLUME_UP        &kp K_MUTE        &trans  &trans  &trans    &kp DELETE      &trans             &trans           &trans           &trans
-                                                                   &kp K_VOLUME_DOWN      &trans            &trans  &trans  &trans    &trans
+&trans      &kp F1            &kp F2      &kp F3                &kp F4                 &kp F5                &trans             &trans  &kp F6    &kp F7          &kp F8             &kp F9           &kp F10          &kp F11
+&trans      &kp PLUS          &kp MINUS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN         &kp GREATER_THAN   &trans  &trans    &trans          &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE       &kp F12
+&trans      &kp EQUAL         &kp UNDER   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SQT               &kp DOUBLE_QUOTES  &trans  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW       &kp RIGHT_ARROW  &kp PRINTSCREEN  &trans
+&trans      &kp COLON         &kp SLASH   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NON_US_BACKSLASH                             &trans    &trans          &trans             &trans           &trans           &trans
+&kp K_STOP  &kp K_PLAY_PAUSE  &kp K_PREV  &kp K_NEXT            &kp K_VOLUME_UP        &kp K_MUTE            &trans             &trans  &trans    &kp DELETE      &trans             &trans           &trans           &trans
+                                                                &kp K_VOLUME_DOWN      &trans                &trans             &trans  &trans    &trans
             >;
         };
 
