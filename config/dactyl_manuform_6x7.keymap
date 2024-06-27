@@ -32,6 +32,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        TMUX_PREFIX {
+            bindings = <&kp RC(SLASH)>;
+            key-positions = <58 63>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
