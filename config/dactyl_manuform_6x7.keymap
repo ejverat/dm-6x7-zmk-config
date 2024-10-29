@@ -43,7 +43,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "CTRL_Z";
             #binding-cells = <0>;
-            bindings = <&mt LCTRL Z>, <&kt Z>;
+            bindings = <&mt LCTRL Z>, <&kp Z>;
 
             tapping-term-ms = <50>;
         };
@@ -52,7 +52,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "A_CTRL_A";
             #binding-cells = <0>;
-            bindings = <&kt A>, <&kt LC(A)>;
+            bindings = <&kp A>, <&kp LC(A)>;
 
             tapping-term-ms = <50>;
         };
@@ -61,7 +61,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "Y_CTRL_Y";
             #binding-cells = <0>;
-            bindings = <&kt Y>, <&kt LC(Y)>;
+            bindings = <&kp Y>, <&kp LC(Y)>;
 
             tapping-term-ms = <50>;
         };
