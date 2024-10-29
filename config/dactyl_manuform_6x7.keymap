@@ -44,6 +44,8 @@
             label = "CTRL_Z";
             #binding-cells = <0>;
             bindings = <&mt LCTRL Z>, <&kt Z>;
+
+            tapping-term-ms = <50>;
         };
 
         a_ctrl_a: a_ctrl_a {
@@ -51,6 +53,8 @@
             label = "A_CTRL_A";
             #binding-cells = <0>;
             bindings = <&kt A>, <&kt LC(A)>;
+
+            tapping-term-ms = <50>;
         };
 
         y_ctrl_y: y_ctrl_y {
@@ -58,6 +62,8 @@
             label = "Y_CTRL_Y";
             #binding-cells = <0>;
             bindings = <&kt Y>, <&kt LC(Y)>;
+
+            tapping-term-ms = <50>;
         };
     };
 
