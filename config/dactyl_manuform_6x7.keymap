@@ -46,6 +46,8 @@
             label = "CTRL_Z";
             #binding-cells = <0>;
             bindings = <&mt LCTRL Z>, <&kp LC(Z)>;
+
+            tapping-term-ms = <100>;
         };
 
         a_ctrl_a: a_ctrl_a {
