@@ -1,0 +1,5 @@
+name: zmk-keyboards-dactyl-manuform-6x7
+build:
+  settings:
+    board_root: .
+    dts_root: .
