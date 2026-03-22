@@ -81,12 +81,12 @@
 
         POG {
             bindings = <
-&trans      &kp F1      &kp F2      &kp F3                &kp F4                 &kp F5                &trans             &trans  &trans  &trans      &trans  &trans  &trans  &trans
-&trans      &kp PLUS    &kp MINUS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN         &kp GREATER_THAN   &trans  &trans  &trans      &trans  &trans  &trans  &trans
-&trans      &kp EQUAL   &kp UNDER   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SQT               &kp DOUBLE_QUOTES  &trans  &trans  &trans      &trans  &trans  &trans  &kp GRAVE
-&trans      &kp COLON   &kp SLASH   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NON_US_BACKSLASH                             &trans  &trans      &trans  &trans  &trans  &trans
-&kp K_STOP  &kp K_PREV  &kp K_NEXT  &kp K_MUTE            &kp K_VOLUME_UP        &trans                &kp K_PLAY_PAUSE   &trans  &trans  &kp DELETE  &trans  &trans  &trans  &trans
-                                                          &kp K_VOLUME_DOWN      &kp K_PREV            &kp K_NEXT         &trans  &trans  &trans
+&trans      &kp F1      &kp F2      &kp F3                &kp F4                 &kp F5         &trans             &trans  &trans  &trans      &trans  &trans  &trans  &trans
+&trans      &kp PLUS    &kp MINUS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN  &kp GREATER_THAN   &trans  &trans  &trans      &trans  &trans  &trans  &trans
+&trans      &kp EQUAL   &kp UNDER   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SQT        &kp DOUBLE_QUOTES  &trans  &trans  &trans      &trans  &trans  &trans  &kp GRAVE
+&trans      &kp COLON   &kp SLASH   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH                             &trans  &trans      &trans  &trans  &trans  &trans
+&kp K_STOP  &kp K_PREV  &kp K_NEXT  &kp K_MUTE            &kp K_VOLUME_UP        &trans         &kp K_PLAY_PAUSE   &trans  &trans  &kp DELETE  &trans  &trans  &trans  &trans
+                                                          &kp K_VOLUME_DOWN      &kp K_PREV     &kp K_NEXT         &trans  &trans  &trans
             >;
         };
 
@@ -95,7 +95,7 @@
 &trans  &kp F1           &kp F2         &kp F3        &kp F4                &kp F5                 &kp F6  &kp F7         &kp F8         &kp F9      &kp F10  &kp F11  &kp F12  &trans
 &trans  &kp EXCLAMATION  &kp AT_SIGN    &kp POUND     &kp DOLLAR            &kp PERCENT            &trans  &trans         &trans         &trans      &trans   &trans   &trans   &trans
 &trans  &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans         &trans         &trans      &trans   &trans   &trans   &trans
-&trans  &trans           &trans         &trans        &trans                &trans                                        &trans         &trans      &trans   &trans   &trans   &trans
+&trans  &kp MINUS        &kp PLUS       &trans        &trans                &trans                                        &trans         &trans      &trans   &trans   &trans   &trans
 &trans  &trans           &trans         &trans        &kp HOME              &trans                 &trans  &bt BT_SEL 0   &bt BT_SEL 5   &bt BT_NXT  &trans   &trans   &trans   &trans
                                                       &kp END               &trans                 &trans  &bt BT_DISC 0  &bt BT_DISC 5  &bt BT_CLR
             >;
