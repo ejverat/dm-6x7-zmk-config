@@ -73,7 +73,7 @@
 &kp ESC      &kp NUMBER_1    &kp NUMBER_2          &kp NUMBER_3  &kp NUMBER_4   &kp N5     &trans         &trans        &kp NUMBER_6    &kp N7        &kp N8     &kp N9   &kp N0          &kp MINUS
 &kp DELETE   &kp Q           &kp W                 &kp E         &kp R          &kp T      &trans         &mo 7         &kp Y           &kp U         &kp I      &kp O    &kp P           &kp BACKSLASH
 &kp GRAVE    &a_ctrl_a       &kp S                 &kp D         &mt LALT F     &kp G      &mo 3          &L2_tg_mo     &kp H           &lt 4 J       &lt 1 K    &kp L    &mt LCTRL SEMI  &kp APOS
-&shift_word  &mt LCTRL Z     &mt LC(LEFT_SHIFT) X  &kp C         &kp V          &kp B                                   &kp N           &kp M         &kp COMMA  &kp DOT  &mt LGUI SLASH  &trans
+&shift_word  &mt LCTRL Z     &mt LC(LEFT_SHIFT) X  &kp C         &kp V          &kp B                                   &kp N           &lt 8 M       &kp COMMA  &kp DOT  &mt LGUI SLASH  &trans
 &kp Z        &sk_LGUI_SLGUI  &trans                &trans        &kp PAGE_UP    &kp SPACE  &kp BACKSPACE  &kp TAB       &kp ENTER       &kp ESCAPE    &sk LGUI   &trans   &trans          &tog 6
                                                                  &kp PAGE_DOWN  &kp LEFT   &kp RIGHT      &kp UP_ARROW  &kp DOWN_ARROW  &kp LS(LGUI)
             >;
@@ -81,12 +81,12 @@
 
         POG {
             bindings = <
-&trans      &kp F1      &kp F2      &kp F3                &kp F4                 &kp F5         &trans             &trans  &trans  &trans      &trans  &trans  &trans  &trans
-&trans      &kp PLUS    &kp MINUS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN  &kp GREATER_THAN   &trans  &trans  &trans      &trans  &trans  &trans  &trans
-&trans      &kp EQUAL   &kp UNDER   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SQT        &kp DOUBLE_QUOTES  &trans  &trans  &trans      &trans  &trans  &trans  &kp GRAVE
-&trans      &kp COLON   &kp SLASH   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH                             &trans  &trans      &trans  &trans  &trans  &trans
-&kp K_STOP  &kp K_PREV  &kp K_NEXT  &kp K_MUTE            &kp K_VOLUME_UP        &trans         &kp K_PLAY_PAUSE   &trans  &trans  &kp DELETE  &trans  &trans  &trans  &trans
-                                                          &kp K_VOLUME_DOWN      &kp K_PREV     &kp K_NEXT         &trans  &trans  &trans
+&trans  &kp F1     &kp F2     &kp F3                &kp F4                 &kp F5         &trans             &trans  &trans  &trans      &trans  &trans  &trans  &trans
+&trans  &kp PLUS   &kp MINUS  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN  &kp GREATER_THAN   &trans  &trans  &trans      &trans  &trans  &trans  &trans
+&trans  &kp EQUAL  &kp UNDER  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SQT        &kp DOUBLE_QUOTES  &trans  &trans  &trans      &trans  &trans  &trans  &kp GRAVE
+&trans  &kp COLON  &kp SLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH                             &trans  &trans      &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans                &trans                 &trans         &trans             &trans  &trans  &kp DELETE  &trans  &trans  &trans  &trans
+                                                    &trans                 &trans         &trans             &trans  &trans  &trans
             >;
         };
 
@@ -153,6 +153,17 @@
 &trans  &trans        &trans        &trans        &trans        &trans                        &trans  &trans      &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &trans        &bt BT_PRV    &trans        &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans
                                                   &bt BT_NXT    &trans        &trans  &trans  &trans  &bt BT_CLR
+            >;
+        };
+
+        MULTIMEDIA {
+            bindings = <
+&trans  &trans             &trans      &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp C_VOLUME_UP    &kp C_PREV  &kp C_STOP  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp C_VOLUME_DOWN  &kp C_NEXT  &kp C_STOP  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp K_MUTE         &trans      &trans      &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans             &trans      &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                                   &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
